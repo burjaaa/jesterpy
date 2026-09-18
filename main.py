@@ -12,7 +12,7 @@ class JokeApp:
         self.storage = HistoryStorage()
 
     async def get_and_display_joke(self, category: str = "Any"):
-        print(f"\n[...] Fetching a {category} joke...")
+        print(f"\n[...] Fetching {category} joke...")
         
         async with aiohttp.ClientSession() as session:
             try:

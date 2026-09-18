@@ -16,5 +16,14 @@
     "delivery": "Put a Windows user in front of Vim and tell them to exit.",
     "joke": "",
     "full_text": "How do you generate a random string?\n  -> Put a Windows user in front of Vim and tell them to exit."
+  },
+  {
+    "id": 198,
+    "category": "Pun",
+    "type": "twopart",
+    "setup": "What did the cell say when his sister cell stepped on his foot?",
+    "delivery": "Mitosis.",
+    "joke": "",
+    "full_text": "What did the cell say when his sister cell stepped on his foot?\n  -> Mitosis."
   }
 ]
