@@ -1,4 +1,5 @@
 import asyncio
+import pyperclip
 import aiohttp
 from models import JokeFetcher, Joke
 from storage import HistoryStorage
@@ -21,6 +22,15 @@ class JokeApp:
                 print("-" * 45)
                 print(f"{joke.full_text}")
                 print("=" * 45)
+
+                copy_choice = input("\nCopy joke to clipboard? (y/n): ").strip().lower()
+                if copy_choice == 'y':
+                    try:
+                        pyperclip.copy(joke.full_text)
+                        print("[✓] Copied to clipboard!")
+                    except Exception as e:
+                        print(f"[x] Failed to copy: {e}")
+
 
                 choice = input("\nSave this joke to your history? (y/n): ").strip().lower()
                 if choice == 'y':

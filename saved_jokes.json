@@ -7,5 +7,14 @@
     "delivery": "He's a fizzician.",
     "joke": "",
     "full_text": "What kind of doctor is Dr. Pepper?\n  -> He's a fizzician."
+  },
+  {
+    "id": 126,
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "How do you generate a random string?",
+    "delivery": "Put a Windows user in front of Vim and tell them to exit.",
+    "joke": "",
+    "full_text": "How do you generate a random string?\n  -> Put a Windows user in front of Vim and tell them to exit."
   }
 ]
